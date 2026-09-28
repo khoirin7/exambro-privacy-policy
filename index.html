@@ -1,89 +1,391 @@
-# Kebijakan Privasi ExamBro
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-**Terakhir diperbarui: 28 September 2026**
+    <title>Kebijakan Privasi - ExamBro</title>
 
-ExamBro adalah aplikasi Android yang dikembangkan untuk membantu pengguna mengakses dan mengikuti ujian berbasis komputer (Computer Based Test/CBT) melalui server ujian yang disediakan oleh sekolah atau penyelenggara ujian.
+    <meta name="description"
+          content="Kebijakan Privasi aplikasi ExamBro oleh QullApps.">
 
-Kebijakan Privasi ini menjelaskan bagaimana aplikasi ExamBro menangani informasi ketika Anda menggunakan aplikasi.
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-## 1. Informasi yang Dikumpulkan
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, Helvetica, Arial, sans-serif;
+            background: #f4f6f8;
+            color: #263238;
+            line-height: 1.7;
+        }
 
-ExamBro tidak meminta pengguna membuat akun khusus di aplikasi dan tidak secara langsung mengumpulkan nama, alamat, nomor telepon, atau informasi identitas pribadi pengguna melalui aplikasi.
+        .header {
+            background: #0D317E;
+            color: white;
+            padding: 42px 20px;
+            text-align: center;
+        }
 
-Aplikasi dapat mengakses atau memproses informasi berikut sesuai dengan fungsi yang digunakan:
+        .brand {
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
 
-* **URL server ujian**, yang dimasukkan oleh pengguna atau diperoleh melalui pemindaian QR Code.
-* **Kamera**, yang digunakan untuk memindai QR Code server ujian.
-* **Informasi koneksi internet**, yang digunakan untuk mengetahui dan memastikan koneksi ke server ujian.
-* **Status baterai perangkat**, yang ditampilkan sebagai informasi selama penggunaan aplikasi.
-* **Waktu pada perangkat**, yang ditampilkan sebagai informasi selama ujian.
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+        }
 
-## 2. Penggunaan Informasi
+        .header p {
+            margin: 10px 0 0;
+            font-size: 15px;
+            opacity: 0.9;
+        }
 
-Informasi tersebut digunakan untuk menyediakan fungsi utama ExamBro, termasuk:
+        .container {
+            max-width: 850px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
 
-* Menghubungkan aplikasi ke server ujian.
-* Membuka halaman ujian melalui WebView.
-* Memindai QR Code untuk memasukkan alamat server ujian.
-* Menampilkan status koneksi internet, baterai, dan waktu.
-* Membantu memastikan aplikasi dapat berfungsi selama pelaksanaan ujian.
+        .content {
+            background: #ffffff;
+            padding: 42px 48px;
+            border-radius: 14px;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+        }
 
-ExamBro tidak menjual informasi pribadi pengguna.
+        .updated {
+            background: #f0f4ff;
+            border-left: 4px solid #0D317E;
+            padding: 12px 16px;
+            margin-bottom: 32px;
+            border-radius: 6px;
+            color: #455a64;
+            font-size: 14px;
+        }
 
-## 3. Server Ujian Pihak Ketiga
+        h2 {
+            color: #0D317E;
+            font-size: 21px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
 
-ExamBro dapat terhubung ke server ujian yang dikelola oleh sekolah, lembaga pendidikan, atau penyelenggara ujian.
+        h2:first-of-type {
+            margin-top: 0;
+        }
 
-Ketika pengguna mengakses server ujian melalui ExamBro, data yang dikirimkan atau diproses oleh server tersebut mengikuti kebijakan privasi dan ketentuan yang ditetapkan oleh pemilik atau pengelola server ujian.
+        p {
+            margin: 0 0 15px;
+        }
 
-ExamBro bukan pemilik atau pengelola data yang dikumpulkan oleh server ujian pihak ketiga tersebut.
+        ul {
+            margin: 8px 0 20px 20px;
+            padding: 0;
+        }
 
-## 4. Kamera dan Pemindaian QR Code
+        li {
+            margin-bottom: 8px;
+        }
 
-ExamBro menggunakan kamera perangkat hanya untuk fungsi pemindaian QR Code server ujian.
+        strong {
+            color: #263238;
+        }
 
-ExamBro tidak menggunakan kamera untuk mengambil atau menyimpan foto pengguna untuk tujuan lain.
+        .contact {
+            background: #f7f8fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 18px;
+        }
 
-## 5. Penyimpanan Data
+        .footer {
+            text-align: center;
+            color: #78909c;
+            font-size: 13px;
+            padding: 0 20px 35px;
+        }
 
-ExamBro tidak menyediakan penyimpanan cloud atau akun pengguna sendiri untuk menyimpan data pribadi pengguna.
+        @media (max-width: 600px) {
+            .header {
+                padding: 32px 18px;
+            }
 
-Data yang diproses oleh server ujian dapat disimpan oleh pengelola server tersebut sesuai dengan kebijakan dan sistem yang mereka gunakan.
+            .header h1 {
+                font-size: 26px;
+            }
 
-## 6. Berbagi Informasi
+            .container {
+                margin: 20px auto;
+                padding: 0 12px;
+            }
 
-ExamBro tidak menjual atau menyewakan informasi pribadi pengguna kepada pihak lain.
+            .content {
+                padding: 28px 22px;
+                border-radius: 10px;
+            }
 
-Ketika aplikasi terhubung ke server ujian, informasi yang diperlukan untuk komunikasi dengan server dapat diproses oleh server tersebut sesuai dengan fungsi layanan dan kebijakan pengelolanya.
+            h2 {
+                font-size: 19px;
+            }
 
-## 7. Iklan
+            body {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
 
-Versi ExamBro yang tercakup dalam kebijakan privasi ini **tidak menampilkan iklan dan tidak menggunakan Google AdMob**.
+<body>
 
-Jika fitur iklan ditambahkan pada versi mendatang, kebijakan privasi ini akan diperbarui sebelum fitur tersebut digunakan dalam aplikasi.
+<header class="header">
+    <div class="brand">QULLAPPS</div>
 
-## 8. Keamanan
+    <h1>Kebijakan Privasi ExamBro</h1>
 
-ExamBro menerapkan fitur keamanan aplikasi yang dirancang untuk membantu melindungi penggunaan aplikasi selama ujian.
+    <p>Computer Based Test Examination Browser</p>
+</header>
 
-Namun, tidak ada metode transmisi atau penyimpanan data melalui internet yang dapat dijamin sepenuhnya aman.
 
-## 9. Privasi Anak
+<main class="container">
 
-ExamBro dapat digunakan dalam lingkungan pendidikan. Aplikasi tidak secara langsung meminta informasi identitas pribadi dari pengguna.
+    <article class="content">
 
-Sekolah atau penyelenggara ujian bertanggung jawab atas data peserta yang mereka kumpulkan melalui sistem server ujian mereka.
+        <div class="updated">
+            <strong>Terakhir diperbarui:</strong> 28 September 2026
+        </div>
 
-## 10. Perubahan Kebijakan Privasi
 
-Kebijakan Privasi ini dapat diperbarui dari waktu ke waktu apabila terdapat perubahan pada fungsi, layanan, atau praktik privasi ExamBro.
+        <h2>1. Informasi yang Dikumpulkan</h2>
 
-Tanggal pembaruan terakhir akan dicantumkan di bagian atas halaman ini.
+        <p>
+            ExamBro adalah aplikasi Android yang dikembangkan untuk membantu
+            pengguna mengakses dan mengikuti ujian berbasis komputer
+            (Computer Based Test/CBT) melalui server ujian yang disediakan
+            oleh sekolah atau penyelenggara ujian.
+        </p>
 
-## 11. Hubungi Kami
+        <p>
+            ExamBro tidak meminta pengguna membuat akun khusus di aplikasi
+            dan tidak secara langsung mengumpulkan nama, alamat, nomor
+            telepon, atau informasi identitas pribadi pengguna melalui
+            aplikasi.
+        </p>
 
-Jika Anda memiliki pertanyaan mengenai Kebijakan Privasi atau penggunaan aplikasi ExamBro, Anda dapat menghubungi pengembang melalui kontak yang tercantum pada halaman aplikasi ExamBro di Google Play.
+        <p>Aplikasi dapat mengakses atau memproses informasi berikut sesuai
+        dengan fungsi yang digunakan:</p>
 
-**Pengembang:** QullApps
+        <ul>
+            <li>
+                <strong>URL server ujian</strong>, yang dimasukkan oleh
+                pengguna atau diperoleh melalui pemindaian QR Code.
+            </li>
 
-**Aplikasi:** ExamBro
+            <li>
+                <strong>Kamera</strong>, yang digunakan untuk memindai
+                QR Code server ujian.
+            </li>
+
+            <li>
+                <strong>Informasi koneksi internet</strong>, yang digunakan
+                untuk mengetahui dan memastikan koneksi ke server ujian.
+            </li>
+
+            <li>
+                <strong>Status baterai perangkat</strong>, yang ditampilkan
+                sebagai informasi selama penggunaan aplikasi.
+            </li>
+
+            <li>
+                <strong>Waktu pada perangkat</strong>, yang ditampilkan
+                sebagai informasi selama ujian.
+            </li>
+        </ul>
+
+
+        <h2>2. Penggunaan Informasi</h2>
+
+        <p>
+            Informasi tersebut digunakan untuk menyediakan fungsi utama
+            ExamBro, termasuk:
+        </p>
+
+        <ul>
+            <li>Menghubungkan aplikasi ke server ujian.</li>
+            <li>Membuka halaman ujian melalui WebView.</li>
+            <li>Memindai QR Code untuk memasukkan alamat server ujian.</li>
+            <li>
+                Menampilkan status koneksi internet, baterai, dan waktu.
+            </li>
+            <li>
+                Membantu memastikan aplikasi dapat berfungsi selama
+                pelaksanaan ujian.
+            </li>
+        </ul>
+
+        <p>
+            ExamBro tidak menjual informasi pribadi pengguna.
+        </p>
+
+
+        <h2>3. Server Ujian Pihak Ketiga</h2>
+
+        <p>
+            ExamBro dapat terhubung ke server ujian yang dikelola oleh
+            sekolah, lembaga pendidikan, atau penyelenggara ujian.
+        </p>
+
+        <p>
+            Ketika pengguna mengakses server ujian melalui ExamBro,
+            data yang dikirimkan atau diproses oleh server tersebut
+            mengikuti kebijakan privasi dan ketentuan yang ditetapkan
+            oleh pemilik atau pengelola server ujian.
+        </p>
+
+        <p>
+            ExamBro bukan pemilik atau pengelola data yang dikumpulkan
+            oleh server ujian pihak ketiga tersebut.
+        </p>
+
+
+        <h2>4. Kamera dan Pemindaian QR Code</h2>
+
+        <p>
+            ExamBro menggunakan kamera perangkat hanya untuk fungsi
+            pemindaian QR Code server ujian.
+        </p>
+
+        <p>
+            ExamBro tidak menggunakan kamera untuk mengambil atau
+            menyimpan foto pengguna untuk tujuan lain.
+        </p>
+
+
+        <h2>5. Penyimpanan Data</h2>
+
+        <p>
+            ExamBro tidak menyediakan penyimpanan cloud atau akun pengguna
+            sendiri untuk menyimpan data pribadi pengguna.
+        </p>
+
+        <p>
+            Data yang diproses oleh server ujian dapat disimpan oleh
+            pengelola server tersebut sesuai dengan kebijakan dan sistem
+            yang mereka gunakan.
+        </p>
+
+
+        <h2>6. Berbagi Informasi</h2>
+
+        <p>
+            ExamBro tidak menjual atau menyewakan informasi pribadi
+            pengguna kepada pihak lain.
+        </p>
+
+        <p>
+            Ketika aplikasi terhubung ke server ujian, informasi yang
+            diperlukan untuk komunikasi dengan server dapat diproses
+            oleh server tersebut sesuai dengan fungsi layanan dan
+            kebijakan pengelolanya.
+        </p>
+
+
+        <h2>7. Iklan</h2>
+
+        <p>
+            Versi ExamBro yang tercakup dalam kebijakan privasi ini
+            <strong>tidak menampilkan iklan dan tidak menggunakan
+            Google AdMob.</strong>
+        </p>
+
+        <p>
+            Jika fitur iklan ditambahkan pada versi mendatang, kebijakan
+            privasi ini akan diperbarui sebelum fitur tersebut digunakan
+            dalam aplikasi.
+        </p>
+
+
+        <h2>8. Keamanan</h2>
+
+        <p>
+            ExamBro menerapkan fitur keamanan aplikasi yang dirancang
+            untuk membantu melindungi penggunaan aplikasi selama ujian.
+        </p>
+
+        <p>
+            Namun, tidak ada metode transmisi atau penyimpanan data
+            melalui internet yang dapat dijamin sepenuhnya aman.
+        </p>
+
+
+        <h2>9. Privasi Anak</h2>
+
+        <p>
+            ExamBro dapat digunakan dalam lingkungan pendidikan.
+            Aplikasi tidak secara langsung meminta informasi identitas
+            pribadi dari pengguna.
+        </p>
+
+        <p>
+            Sekolah atau penyelenggara ujian bertanggung jawab atas data
+            peserta yang mereka kumpulkan melalui sistem server ujian
+            mereka.
+        </p>
+
+
+        <h2>10. Perubahan Kebijakan Privasi</h2>
+
+        <p>
+            Kebijakan Privasi ini dapat diperbarui dari waktu ke waktu
+            apabila terdapat perubahan pada fungsi, layanan, atau
+            praktik privasi ExamBro.
+        </p>
+
+        <p>
+            Tanggal pembaruan terakhir akan dicantumkan di bagian atas
+            halaman ini.
+        </p>
+
+
+        <h2>11. Hubungi Kami</h2>
+
+        <div class="contact">
+
+            <p>
+                Jika Anda memiliki pertanyaan mengenai Kebijakan Privasi
+                atau penggunaan aplikasi ExamBro, Anda dapat menghubungi
+                pengembang melalui kontak yang tercantum pada halaman
+                aplikasi ExamBro di Google Play.
+            </p>
+
+            <p>
+                <strong>Pengembang:</strong> QullApps
+            </p>
+
+            <p>
+                <strong>Aplikasi:</strong> ExamBro
+            </p>
+
+        </div>
+
+    </article>
+
+</main>
+
+
+<footer class="footer">
+    © 2026 QullApps · ExamBro
+</footer>
+
+</body>
+</html>
